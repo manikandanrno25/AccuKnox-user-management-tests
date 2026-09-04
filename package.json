@@ -1,0 +1,28 @@
+{
+  "name": "accuknox-user-management-tests",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript E2E automation for the OrangeHRM Admin > User Management module (AccuKnox QA Trainee Practical Assessment - Problem Statement 1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install --with-deps"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "e2e",
+    "orangehrm",
+    "accuknox"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
