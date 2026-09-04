@@ -124,8 +124,3 @@ for full details. Highlights:
   searches; the automation resets the filter bar before every new search as a precaution.
 - Deletion has no undo from the UI — confirmed via the "Yes, Delete" modal, it's immediate.
 
-## CI
-
-A sample GitHub Actions workflow is included at
-[`.github/workflows/playwright.yml`](.github/workflows/playwright.yml) to run the suite on every
-push/PR.
